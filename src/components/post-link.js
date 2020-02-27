@@ -10,7 +10,7 @@ const PostLink = ({ post }) => {
 	const price = formatter.format(post.frontmatter.price);
 
 	return (
-		<div>
+		<div style={{ marginBottom: ".5rem" }}>
 			<div
 				style={{
 					display: "flex",
@@ -20,10 +20,12 @@ const PostLink = ({ post }) => {
 				<p>
 					<strong>{post.frontmatter.title}</strong>
 				</p>
-				<p>
-					{post.frontmatter.price_xtra
-						? `${price}${post.frontmatter.price_xtra}`
-						: price}
+				<p style={{ whiteSpace: "nowrap", paddingLeft: "3rem" }}>
+					<strong>
+						{post.frontmatter.price_xtra
+							? `${price}${post.frontmatter.price_xtra}`
+							: price}
+					</strong>
 				</p>
 			</div>
 			<div dangerouslySetInnerHTML={{ __html: post.html }}></div>
