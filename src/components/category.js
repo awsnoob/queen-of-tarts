@@ -1,16 +1,16 @@
-import React from "react";
-import PostLink from "./post-link";
+import React from 'react'
+import PostLink from './post-link'
 
 const Category = ({ info, posts }) => {
 	const Posts = posts.map(post => {
-		return <PostLink key={post.node.id} post={post.node} />;
-	});
+		return <PostLink key={post.node.id} post={post.node} />
+	})
 	return (
-		<div style={{ paddingBottom: "3rem" }}>
-			<h1 style={{ marginBottom: "2rem" }}>{info.name}</h1>
+		<div style={{ paddingBottom: '3rem' }}>
+			<h1 style={{ marginBottom: '1.5rem' }}>{info.name}</h1>
 			{Posts}
 		</div>
-	);
-};
+	)
+}
 
-export default Category;
+export default Category
