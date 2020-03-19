@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../styles.css'
 import Category from '../components/category'
@@ -87,7 +88,7 @@ const IndexPage = ({
 				<div>
 					<div className="left-section">
 						<img
-							src={`/complete.png`}
+							src={`/complete-full.png`}
 							className="img-fluid mb-5"
 							alt="Queen of tarts logo"
 						/>
@@ -100,6 +101,7 @@ const IndexPage = ({
 						<a
 							href="https://www.facebook.com/adelaidequeenoftarts/"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<img
 								src={`/facebook-icon-2020.png`}

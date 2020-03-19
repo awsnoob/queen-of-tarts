@@ -55,3 +55,12 @@ h1 {
 		padding-bottom: 3rem;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 2rem;
+	}
+	.wrapper {
+		padding: 3rem 2.5rem;
+	}
+}
