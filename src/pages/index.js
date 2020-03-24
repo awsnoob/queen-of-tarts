@@ -3,70 +3,12 @@ import { graphql } from 'gatsby'
 import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../styles.css'
 import Category from '../components/category'
+import menu from '../data/menu.json'
+import Footer from '../components/footer'
+import ContactForm from '../components/contactForm'
 
-// menu.markdown
-const menu = [
-	{
-		markdown: 'beverages',
-		name: 'Beverages'
-	},
-	{
-		markdown: 'canneloni',
-		name: 'Canneloni'
-	},
-	{
-		markdown: 'cocktail-finger-foods',
-		name: 'Cocktail / Finger Foods'
-	},
-	{
-		markdown: 'frittata',
-		name: 'Frittata'
-	},
-	{
-		markdown: 'lasagne',
-		name: 'Lasagne'
-	},
-	{
-		markdown: 'morning-tea-afternoon-tea',
-		name: 'Morning Tea / Afternoon Tea'
-	},
-	{
-		markdown: 'moussaka',
-		name: 'Moussaka'
-	},
-	{
-		markdown: 'pies',
-		name: 'Pies'
-	},
-	{
-		markdown: 'polenta-tarts',
-		name: 'Polenta Tarts'
-	},
-	{
-		markdown: 'quiches',
-		name: 'Quiches'
-	},
-	{
-		markdown: 'salads-risotto',
-		name: 'Salads / Risoto'
-	},
-	{
-		markdown: 'sausage-rolls',
-		name: 'Sausage Rolls'
-	},
-	{
-		markdown: 'spanakopita',
-		name: 'Spanakopita'
-	},
-	{
-		markdown: 'sweets-tarts-cakes',
-		name: 'Sweet Tarts and Cakes'
-	},
-	{
-		markdown: 'wraps',
-		name: 'Wraps'
-	}
-]
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShippingFast } from '@fortawesome/free-solid-svg-icons'
 
 const IndexPage = ({
 	data: {
@@ -92,57 +34,56 @@ const IndexPage = ({
 							className="img-fluid mb-5"
 							alt="Queen of tarts logo"
 						/>
-						<p>178 Hutt Street, Adelaide SA 5000 </p>
-						<h2>Ph. 8223 1529</h2>
-						<p className="mt-5">
+
+						<h1
+							className="display-4"
+							style={{
+								lineHeight: '1',
+								marginBottom: '0'
+							}}
+						>
+							Ph. 8223 1529
+						</h1>
+
+						<a
+							className="d-inline-block pt-3 animated-icon-trigger"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://www.google.com/maps/dir/Current+Location/178+Hutt+St+Adelaide+SA+5000"
+						>
+							<h2 className="mb-0" style={{ lineHeight: '1' }}>
+								178 Hutt Street, Adelaide SA 5000
+							</h2>
+							<p style={{ lineHeight: '1' }}>
+								<small>Need directions to our shop?</small>
+								<FontAwesomeIcon
+									className="ml-2 animated-icon"
+									icon={faShippingFast}
+								/>
+							</p>
+						</a>
+
+						<p
+							className="mt-4"
+							style={{
+								marginBottom: '5rem'
+							}}
+						>
 							No artificial flavours, colours or preservatives{' '}
 							<br /> so you only get the real thing!
 						</p>
-						<a
-							href="https://www.facebook.com/adelaidequeenoftarts/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								src={`/facebook-icon-2020.png`}
-								style={{
-									maxWidth: '2rem'
-								}}
-								className="mt-3"
-								alt="Facebook page"
-							/>
-						</a>
+
+						<ContactForm />
 					</div>
 				</div>
-				<div>
+				<div className="pt-5">
 					<div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-						<h3>MENU</h3>
+						<h3 className="menu-sign">MENU</h3>
 					</div>
 					{Categories}
 				</div>
-				{/* <div>
-					<div>
-						<img src={`/queen.png`} className="img-fluid" alt="" />
-					</div>
-				</div> */}
 			</div>
-			<div
-				style={{
-					textAlign: 'center',
-					marginTop: '4rem'
-				}}
-			>
-				<p>All goods are made on the premises.</p>
-				<p>
-					NO artificial colourings, flavourings or additives used in
-					our foods.
-				</p>
-				<p>This menu lists some of our regular dishes.</p>
-				<p>
-					Our foods change daily and are affected by seasonal produce.
-				</p>
-				<p>Delivery available. Courier charge may apply.</p>
-			</div>
+			<Footer />
 		</div>
 	)
 }

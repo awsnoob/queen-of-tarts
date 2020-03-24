@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu+2&display=swap');
 
 body {
-	font-family: 'Baloo Tammudu 2', cursive;
 	color: #333;
 	background: #ece9e6; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
@@ -16,6 +15,31 @@ body {
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+
+ul {
+	padding-left: 2.2rem;
+	margin-bottom: 0;
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
 p,
 li {
 	font-size: 1.2rem;
@@ -24,6 +48,19 @@ li {
 
 h1 {
 	color: red;
+}
+
+.animated-icon-trigger {
+	overflow: hidden;
+}
+
+.animated-icon {
+	transition: margin-right 100ms ease-in;
+	margin-right: -29px;
+}
+
+.animated-icon-trigger:hover .animated-icon {
+	margin-right: 0;
 }
 
 .wrapper {
@@ -42,6 +79,15 @@ h1 {
 	text-align: right;
 }
 
+.menu-sign {
+	display: inline-block;
+	line-height: 1;
+	padding: 1rem 2rem 0 2rem;
+	background-color: red;
+	transform: rotate(4.2deg);
+	color: white;
+}
+
 @media screen and (max-width: 1000px) {
 	.left-right-grid {
 		display: block;
@@ -54,6 +100,15 @@ h1 {
 		text-align: center;
 		padding-bottom: 3rem;
 	}
+
+	.animated-icon {
+		transition: none;
+		margin-right: auto;
+	}
+
+	.animated-icon-trigger:hover .animated-icon {
+		margin-right: auto;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -62,5 +117,8 @@ h1 {
 	}
 	.wrapper {
 		padding: 3rem 2.5rem;
+	}
+	.display-4 {
+		font-size: 3rem;
 	}
 }
