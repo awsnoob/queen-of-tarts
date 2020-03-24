@@ -1,14 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShippingFast } from '@fortawesome/free-solid-svg-icons'
+
 import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../styles.css'
+
 import Category from '../components/category'
 import menu from '../data/menu.json'
 import Footer from '../components/footer'
 import ContactForm from '../components/contactForm'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShippingFast } from '@fortawesome/free-solid-svg-icons'
 
 const IndexPage = ({
 	data: {
@@ -57,6 +58,9 @@ const IndexPage = ({
 							<p style={{ lineHeight: '1' }}>
 								<small>Need directions to our shop?</small>
 								<FontAwesomeIcon
+									style={{
+										maxWidth: '24px'
+									}}
 									className="ml-2 animated-icon"
 									icon={faShippingFast}
 								/>

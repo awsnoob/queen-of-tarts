@@ -55,8 +55,8 @@ h1 {
 }
 
 .animated-icon {
-	transition: margin-right 100ms ease-in;
 	margin-right: -29px;
+	transition: margin-right 100ms ease-in;
 }
 
 .animated-icon-trigger:hover .animated-icon {
