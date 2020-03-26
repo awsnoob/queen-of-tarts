@@ -86,7 +86,7 @@ const IndexPage = ({
 							<i>
 								No artificial flavours, colours or preservatives
 								<br />
-								so you only get the real thing!
+								so you <u>only</u> get the real thing!
 							</i>
 						</p>
 					</div>
