@@ -1,7 +1,7 @@
 ---
-title: "Sweet Tartlets"
-price: 3.5
-category: "morning-tea-afternoon-tea"
+title: 'Sweet Tartlets (small)'
+price: 3.8
+category: 'morning-tea-afternoon-tea'
 ---
 
 -   Lemon curd and passionfruit

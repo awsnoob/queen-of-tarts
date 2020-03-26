@@ -1,7 +1,7 @@
 ---
-title: "Danish Pastries (mini)"
-price: 3.3
-category: "morning-tea-afternoon-tea"
+title: 'Danish Pastries (small)'
+price: 3.5
+category: 'morning-tea-afternoon-tea'
 ---
 
 -   Apple and custard

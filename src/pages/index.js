@@ -50,10 +50,10 @@ const IndexPage = ({
 							className="d-inline-block pt-3 animated-icon-trigger"
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://www.google.com/maps/dir/Current+Location/178+Hutt+St+Adelaide+SA+5000"
+							href="https://www.google.com/maps/dir/Current+Location/172+Hutt+St+Adelaide+SA+5000"
 						>
 							<h2 className="mb-0" style={{ lineHeight: '1' }}>
-								178 Hutt Street, Adelaide SA 5000
+								172 Hutt Street, Adelaide SA 5000
 							</h2>
 							<p style={{ lineHeight: '1' }}>
 								<small>Need directions to our shop?</small>
@@ -73,16 +73,22 @@ const IndexPage = ({
 								marginBottom: '5rem'
 							}}
 						>
-							No artificial flavours, colours or preservatives{' '}
-							<br /> so you only get the real thing!
+							The value of our product is in our quality!
 						</p>
 
 						<ContactForm />
 					</div>
 				</div>
-				<div className="pt-5">
-					<div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+				<div>
+					<div className="pb-5 pt-4 text-center">
 						<h3 className="menu-sign">MENU</h3>
+						<p className="pt-2">
+							<i>
+								No artificial flavours, colours or preservatives
+								<br />
+								so you only get the real thing!
+							</i>
+						</p>
 					</div>
 					{Categories}
 				</div>

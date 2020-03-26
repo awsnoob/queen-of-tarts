@@ -1,7 +1,7 @@
 ---
-title: "Choose any 8 items"
+title: 'Choose any 8 items'
 price: 23.2
-category: "cocktail-finger-foods"
+category: 'cocktail-finger-foods'
 ---
 
 -   Spinach and ricotta filo triangles
@@ -10,7 +10,7 @@ category: "cocktail-finger-foods"
 -   Satay and sweet chilli chicken balls (not spicy, gluten free)
 -   Meatballs in 'QOT' tomato and basil sauce (gluten free)
 -   Mushroom and lemon risotto balls (gluten free)
--   Polenta tartletts with sun dried domato pesto, caramelised onion, parsley, roasted pumpkin and fetta
+-   Polenta tartletts with sun dried tomato pesto, caramelised onion, parsley, roasted pumpkin and fetta
 -   Frittata tartletts (vegetarian, gluten free)
 -   Smokey bacon, tomato and spinach quiche tartlet
 -   Mediteranean vegetarian quiche tartlet

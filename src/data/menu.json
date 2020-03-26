@@ -1,31 +1,23 @@
 [
 	{
-		"markdown": "beverages",
-		"name": "Beverages"
-	},
-	{
-		"markdown": "canneloni",
-		"name": "Canneloni"
-	},
-	{
 		"markdown": "cocktail-finger-foods",
 		"name": "Cocktail / Finger Foods"
-	},
-	{
-		"markdown": "frittata",
-		"name": "Frittata"
-	},
-	{
-		"markdown": "lasagne",
-		"name": "Lasagne"
 	},
 	{
 		"markdown": "morning-tea-afternoon-tea",
 		"name": "Morning Tea / Afternoon Tea"
 	},
 	{
-		"markdown": "moussaka",
-		"name": "Moussaka"
+		"markdown": "wraps",
+		"name": "Wraps"
+	},
+	{
+		"markdown": "sweets-tarts-cakes",
+		"name": "Sweet Tarts and Cakes"
+	},
+	{
+		"markdown": "quiches",
+		"name": "Quiches"
 	},
 	{
 		"markdown": "pies",
@@ -36,27 +28,38 @@
 		"name": "Polenta Tarts"
 	},
 	{
-		"markdown": "quiches",
-		"name": "Quiches"
-	},
-	{
-		"markdown": "salads-risotto",
-		"name": "Salads / Risoto"
-	},
-	{
-		"markdown": "sausage-rolls",
-		"name": "Sausage Rolls"
+		"markdown": "frittata",
+		"name": "Frittata"
 	},
 	{
 		"markdown": "spanakopita",
 		"name": "Spanakopita"
 	},
 	{
-		"markdown": "sweets-tarts-cakes",
-		"name": "Sweet Tarts and Cakes"
+		"markdown": "sausage-rolls",
+		"name": "Sausage Rolls"
 	},
 	{
-		"markdown": "wraps",
-		"name": "Wraps"
+		"markdown": "cannelloni",
+		"name": "Cannelloni"
+	},
+
+	{
+		"markdown": "lasagne",
+		"name": "Lasagne"
+	},
+
+	{
+		"markdown": "moussaka",
+		"name": "Moussaka"
+	},
+	{
+		"markdown": "salads-risotto",
+		"name": "Salads / Risotto"
+	},
+
+	{
+		"markdown": "beverages",
+		"name": "Beverages"
 	}
 ]

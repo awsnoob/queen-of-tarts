@@ -1,5 +1,5 @@
 ---
-title: "Spinach and Ricotta (small)"
+title: 'Spinach and Ricotta (approx 9cm)'
 price: 5
-category: "sausage-rolls"
+category: 'sausage-rolls'
 ---
