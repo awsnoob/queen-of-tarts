@@ -32,7 +32,7 @@ module.exports = {
 				background_color: `#333`,
 				theme_color: `#333`,
 				display: `minimal-ui`,
-				icon: `src/images/queen-of-tarts-icon.png` // This path is relative to the root of the site.
+				icon: `src/images/queen-of-tarts-icon.ico` // This path is relative to the root of the site.
 			}
 		}
 		// this (optional) plugin enables Progressive Web App + Offline functionality
