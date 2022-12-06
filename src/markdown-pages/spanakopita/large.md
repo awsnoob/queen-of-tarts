@@ -1,6 +1,6 @@
 ---
 title: "Large (34 cm)"
-price: 55
+price: 70
 category: "spanakopita"
 ---
 
