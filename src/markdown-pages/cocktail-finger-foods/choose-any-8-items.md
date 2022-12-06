@@ -1,6 +1,6 @@
 ---
 title: 'Choose any 8 items'
-price: 23.2
+price: 30.4
 category: 'cocktail-finger-foods'
 ---
 
