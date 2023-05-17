@@ -1,5 +1,5 @@
 ---
 title: "Cocktail"
-price: 2.9
+price: 3.80
 category: "quiches"
 ---
