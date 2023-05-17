@@ -1,6 +1,6 @@
 ---
 title: "Protein Balls (vegan and gluten free)"
-price: 5
+price: 6.00
 category: "morning-tea-afternoon-tea"
 ---
 
