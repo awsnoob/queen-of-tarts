@@ -5,7 +5,6 @@ category: 'cocktail-finger-foods'
 ---
 
 -   Spinach and ricotta filo triangles
--   Pizzetta triangles on a thin wholemeal base
 -   Thai chicken breast sausage rolls
 -   Satay and sweet chilli chicken balls (not spicy, gluten free)
 -   Meatballs in 'QOT' tomato and basil sauce (gluten free)
