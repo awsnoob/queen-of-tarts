@@ -1,7 +1,7 @@
 ---
 title: 'Croissants'
-price: 4.4
+price: 7.50
 category: 'morning-tea-afternoon-tea'
 ---
 
-Mini with melted cheese and tomato
+Melted cheese and tomato
