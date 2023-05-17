@@ -12,45 +12,6 @@
 		"name": "Quiches"
 	},
 	{
-		"markdown": "pies",
-		"name": "Pies"
-	},
-	{
-		"markdown": "polenta-tarts",
-		"name": "Polenta Tarts"
-	},
-	{
-		"markdown": "frittata",
-		"name": "Frittata"
-	},
-	{
-		"markdown": "spanakopita",
-		"name": "Spanakopita"
-	},
-	{
-		"markdown": "sausage-rolls",
-		"name": "Sausage Rolls"
-	},
-	{
-		"markdown": "cannelloni",
-		"name": "Cannelloni"
-	},
-
-	{
-		"markdown": "lasagne",
-		"name": "Lasagne"
-	},
-
-	{
-		"markdown": "moussaka",
-		"name": "Moussaka"
-	},
-	{
-		"markdown": "salads-risotto",
-		"name": "Salads / Risotto"
-	},
-
-	{
 		"markdown": "beverages",
 		"name": "Beverages"
 	}
