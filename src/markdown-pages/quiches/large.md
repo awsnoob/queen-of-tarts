@@ -1,6 +1,6 @@
 ---
 title: "Large (25.5 cm) 8-12 people"
-price: 42
+price: 44
 category: "quiches"
 ---
 
