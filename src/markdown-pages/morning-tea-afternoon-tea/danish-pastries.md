@@ -1,6 +1,6 @@
 ---
 title: 'Danish Pastries (small)'
-price: 3.5
+price: 4.00
 category: 'morning-tea-afternoon-tea'
 ---
 
