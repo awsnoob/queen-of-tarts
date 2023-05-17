@@ -1,6 +1,6 @@
 ---
 title: 'Sweet Tartlets (small)'
-price: 3.8
+price: 4.0
 category: 'morning-tea-afternoon-tea'
 ---
 
