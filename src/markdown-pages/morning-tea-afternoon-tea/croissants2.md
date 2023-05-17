@@ -1,7 +1,7 @@
 ---
 title: 'Croissants'
-price: 4.8
+price: 7.80
 category: 'morning-tea-afternoon-tea'
 ---
 
-Mini with smoked ham and cheese
+Smoked ham and cheese
